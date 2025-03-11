@@ -1,0 +1,86 @@
+
+html, body {
+    height: 100%; 
+    margin: 0;    
+    background-color: #ADD8E6;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+
+
+header {
+    background-image: url(img/funfo.jpg);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+header div {
+    margin-top: 15px;
+}
+
+
+
+header img {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px; 
+    animation: zoomIn 2s ease-in-out; 
+}
+
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(5); 
+        opacity: 0; 
+    }
+    100% {
+        transform: scale(1); 
+        opacity: 1; 
+    }
+}
+
+
+
+main {
+    min-height: calc(100vh - 160px); 
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 45px;
+}
+
+
+.secao {
+    margin-bottom: 20px;
+}
+
+.secao h2, .secao h3 {
+    color: #333;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+footer p {
+    margin: 5px;
+}

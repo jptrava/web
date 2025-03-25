@@ -1,0 +1,13 @@
+/*Seletor universal*/
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.colunas {
+    display: block;
+    columns: 2 20px; /* Divide o conteúdo em 2 colunas com 20px de espaço entre elas */
+    text-align: justify; /* Justifica o texto para alinhamento uniforme */
+    column-rule: 1px solid #ccc; /* Adiciona uma linha divisória entre as colunas */
+}
